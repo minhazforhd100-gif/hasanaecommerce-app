@@ -473,7 +473,7 @@ class OrderSuccess extends StatelessWidget {
       Text('Order ID: $orderId', style: const TextStyle(color: AppColors.muted)),
       const SizedBox(height: 24),
       SizedBox(width: double.infinity, child: FilledButton(style: FilledButton.styleFrom(backgroundColor: AppColors.navy), onPressed: () => Navigator.popUntil(context, (r) => r.isFirst), child: const Text('Continue Shopping'))),
-    ])),
+    ]))
   );
 }
 
